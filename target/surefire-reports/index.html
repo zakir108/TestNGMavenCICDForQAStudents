@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">2 suites, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Component_Tests" class="navigator-link">
+              <span class="suite-name border-failed">Component Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Component_Tests" class="navigator-link ">
+                    <span>D:\JavaProjectDir\TsestNg\Demo1\demo1\src\test\resources\suit1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Component_Tests" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Component_Tests" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Component_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Component_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Component_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Component_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 5 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Component_Tests" class="hide-methods failed suite-Component_Tests"> (hide)</a> <!-- hide-methods failed suite-Component_Tests -->
+                      <a href="#" panel-name="suite-Component_Tests" class="show-methods failed suite-Component_Tests"> (show)</a> <!-- show-methods failed suite-Component_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Component_Tests">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="CountTotalFriend">CountTotalFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="CountTotalFriend1">CountTotalFriend1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="TestNGBAsics" class="method navigator-link" hash-for-method="TestDone">TestDone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="TestNGBAsics" class="method navigator-link" hash-for-method="TestNotDone">TestNotDone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="launchApp1">launchApp1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Component_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Component_Tests" class="hide-methods passed suite-Component_Tests"> (hide)</a> <!-- hide-methods passed suite-Component_Tests -->
+                      <a href="#" panel-name="suite-Component_Tests" class="show-methods passed suite-Component_Tests"> (show)</a> <!-- show-methods passed suite-Component_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Component_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="AddAfrined">AddAfrined</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="TestArithmetic" class="method navigator-link" hash-for-method="TestAdditionFunction">TestAdditionFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="JavaBasicFunctions" class="method navigator-link" hash-for-method="TestAdditionFunction1">TestAdditionFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="TestArithmetic" class="method navigator-link" hash-for-method="TestAdditionFunction1">TestAdditionFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="JavaBasicFunctions" class="method navigator-link" hash-for-method="TestAdditionFunction2">TestAdditionFunction2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="TestArithmetic" class="method navigator-link" hash-for-method="TestMultiFunction1">TestMultiFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="UnfriendAfrined">UnfriendAfrined</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests" title="OpenHRM" class="method navigator-link" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Component_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Component_Tests__0_" class="navigator-link">
+              <span class="suite-name border-failed">Component Tests (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Component_Tests__0_" class="navigator-link ">
+                    <span>D:\JavaProjectDir\TsestNg\Demo1\demo1\src\test\resources\suit2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Component_Tests__0_" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Component_Tests__0_" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Component_Tests__0_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Component_Tests__0_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Component_Tests__0_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Component_Tests__0_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 5 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Component_Tests__0_" class="hide-methods failed suite-Component_Tests__0_"> (hide)</a> <!-- hide-methods failed suite-Component_Tests__0_ -->
+                      <a href="#" panel-name="suite-Component_Tests__0_" class="show-methods failed suite-Component_Tests__0_"> (show)</a> <!-- show-methods failed suite-Component_Tests__0_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Component_Tests__0_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="CountTotalFriend">CountTotalFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="CountTotalFriend1">CountTotalFriend1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="TestNGBAsics" class="method navigator-link" hash-for-method="TestDone">TestDone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="TestNGBAsics" class="method navigator-link" hash-for-method="TestNotDone">TestNotDone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="launchApp1">launchApp1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Component_Tests__0_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Component_Tests__0_" class="hide-methods passed suite-Component_Tests__0_"> (hide)</a> <!-- hide-methods passed suite-Component_Tests__0_ -->
+                      <a href="#" panel-name="suite-Component_Tests__0_" class="show-methods passed suite-Component_Tests__0_"> (show)</a> <!-- show-methods passed suite-Component_Tests__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Component_Tests__0_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="AddAfrined">AddAfrined</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="TestArithmetic" class="method navigator-link" hash-for-method="TestAdditionFunction">TestAdditionFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="TestArithmetic" class="method navigator-link" hash-for-method="TestAdditionFunction1">TestAdditionFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="JavaBasicFunctions" class="method navigator-link" hash-for-method="TestAdditionFunction1">TestAdditionFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="JavaBasicFunctions" class="method navigator-link" hash-for-method="TestAdditionFunction2">TestAdditionFunction2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="TestArithmetic" class="method navigator-link" hash-for-method="TestMultiFunction1">TestMultiFunction1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="UnfriendAfrined">UnfriendAfrined</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Component_Tests__0_" title="OpenHRM" class="method navigator-link" hash-for-method="launchApp">launchApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Component_Tests__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Component_Tests" class="panel Component_Tests">
+          <div class="suite-Component_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">OpenHRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountTotalFriend">
+                  </a> <!-- CountTotalFriend -->
+                  <span class="method-name">CountTotalFriend</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [186] but found [187]
+	at OpenHRM.CountTotalFriend(OpenHRM.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountTotalFriend1">
+                  </a> <!-- CountTotalFriend1 -->
+                  <span class="method-name">CountTotalFriend1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [186] but found [187]
+	at OpenHRM.CountTotalFriend1(OpenHRM.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp1">
+                  </a> <!-- launchApp1 -->
+                  <span class="method-name">launchApp1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=124.0.6367.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24e7c9d4665a5208af7822d214443500, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63450/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24e7c9d4665a5208af7822d214443500
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at OpenHRM.launchApp1(OpenHRM.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-failed -->
+          <div class="suite-Component_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGBAsics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDone">
+                  </a> <!-- TestDone -->
+                  <span class="method-name">TestDone</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id=&apos;main&apos;]/div/form/div/div[1]/label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63109/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at TestNGBAsics.TestDone(TestNGBAsics.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNotDone">
+                  </a> <!-- TestNotDone -->
+                  <span class="method-name">TestNotDone</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id=&apos;main&apos;]/div/form/div/div[2]/label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63109/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at TestNGBAsics.TestNotDone(TestNGBAsics.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-failed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">OpenHRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAfrined">
+                  </a> <!-- AddAfrined -->
+                  <span class="method-name">AddAfrined</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnfriendAfrined">
+                  </a> <!-- UnfriendAfrined -->
+                  <span class="method-name">UnfriendAfrined</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JavaBasicFunctions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction1">
+                  </a> <!-- TestAdditionFunction1 -->
+                  <span class="method-name">TestAdditionFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction2">
+                  </a> <!-- TestAdditionFunction2 -->
+                  <span class="method-name">TestAdditionFunction2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestArithmetic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction">
+                  </a> <!-- TestAdditionFunction -->
+                  <span class="method-name">TestAdditionFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction1">
+                  </a> <!-- TestAdditionFunction1 -->
+                  <span class="method-name">TestAdditionFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMultiFunction1">
+                  </a> <!-- TestMultiFunction1 -->
+                  <span class="method-name">TestMultiFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+        </div> <!-- panel Component_Tests -->
+        <div panel-name="suite-Component_Tests__0_" class="panel Component_Tests__0_">
+          <div class="suite-Component_Tests__0_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">OpenHRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountTotalFriend">
+                  </a> <!-- CountTotalFriend -->
+                  <span class="method-name">CountTotalFriend</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [186] but found [187]
+	at OpenHRM.CountTotalFriend(OpenHRM.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountTotalFriend1">
+                  </a> <!-- CountTotalFriend1 -->
+                  <span class="method-name">CountTotalFriend1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [186] but found [187]
+	at OpenHRM.CountTotalFriend1(OpenHRM.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp1">
+                  </a> <!-- launchApp1 -->
+                  <span class="method-name">launchApp1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=124.0.6367.63)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ec2a8beab4cc7ed8a9a71d03514ea50, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63445/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ec2a8beab4cc7ed8a9a71d03514ea50
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at OpenHRM.launchApp1(OpenHRM.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests__0_-class-failed -->
+          <div class="suite-Component_Tests__0_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGBAsics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDone">
+                  </a> <!-- TestDone -->
+                  <span class="method-name">TestDone</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label for=&quot;done&quot;&gt;...&lt;/label&gt; is not clickable at point (83, 516). Other element would receive the click: &lt;iframe src=&quot;https://ccpa-manager.privacymanager.io/latest/index.html#/notice&quot; id=&quot;ccpa-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;min-height: 220px; max-height: 350px; width: 100%; left: 0px; bottom: 0px; position: fixed; display: block; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 212px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=124.0.6367.63)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb8d65c3cf8c681f20c6e46e97e1a99f, clickElement {id=f.B78CB67CB7658D5A6E7B3D9917EDF1FD.d.D9B302A8D2751F3900045B3DB1E9EE30.e.60}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63109/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eb8d65c3cf8c681f20c6e46e97e1a99f)] -&gt; xpath: //*[@id=&apos;main&apos;]/div/form/div/div[1]/label]
+Session ID: eb8d65c3cf8c681f20c6e46e97e1a99f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at TestNGBAsics.TestDone(TestNGBAsics.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNotDone">
+                  </a> <!-- TestNotDone -->
+                  <span class="method-name">TestNotDone</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label for=&quot;pending&quot;&gt;...&lt;/label&gt; is not clickable at point (92, 556). Other element would receive the click: &lt;iframe src=&quot;https://ccpa-manager.privacymanager.io/latest/index.html#/notice&quot; id=&quot;ccpa-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;min-height: 220px; max-height: 350px; width: 100%; left: 0px; bottom: 0px; position: fixed; display: block; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 212px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=124.0.6367.63)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb8d65c3cf8c681f20c6e46e97e1a99f, clickElement {id=f.B78CB67CB7658D5A6E7B3D9917EDF1FD.d.D9B302A8D2751F3900045B3DB1E9EE30.e.63}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63109/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eb8d65c3cf8c681f20c6e46e97e1a99f)] -&gt; xpath: //*[@id=&apos;main&apos;]/div/form/div/div[2]/label]
+Session ID: eb8d65c3cf8c681f20c6e46e97e1a99f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at TestNGBAsics.TestNotDone(TestNGBAsics.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests__0_-class-failed -->
+          <div class="suite-Component_Tests__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">OpenHRM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAfrined">
+                  </a> <!-- AddAfrined -->
+                  <span class="method-name">AddAfrined</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnfriendAfrined">
+                  </a> <!-- UnfriendAfrined -->
+                  <span class="method-name">UnfriendAfrined</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp">
+                  </a> <!-- launchApp -->
+                  <span class="method-name">launchApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests__0_-class-passed -->
+          <div class="suite-Component_Tests__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JavaBasicFunctions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction1">
+                  </a> <!-- TestAdditionFunction1 -->
+                  <span class="method-name">TestAdditionFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction2">
+                  </a> <!-- TestAdditionFunction2 -->
+                  <span class="method-name">TestAdditionFunction2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests__0_-class-passed -->
+          <div class="suite-Component_Tests__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestArithmetic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction">
+                  </a> <!-- TestAdditionFunction -->
+                  <span class="method-name">TestAdditionFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionFunction1">
+                  </a> <!-- TestAdditionFunction1 -->
+                  <span class="method-name">TestAdditionFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMultiFunction1">
+                  </a> <!-- TestMultiFunction1 -->
+                  <span class="method-name">TestMultiFunction1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests__0_-class-passed -->
+        </div> <!-- panel Component_Tests__0_ -->
+        <div panel-name="test-xml-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JavaProjectDir\TsestNg\Demo1\demo1\src\test\resources\suit1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Component Tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;a-t1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestArithmetic&quot;/&gt;
+      &lt;class name=&quot;JavaBasicFunctions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- a-t1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;a-t2&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OpenHRM&quot;/&gt;
+      &lt;class name=&quot;TestNGBAsics&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- a-t2 --&gt;
+&lt;/suite&gt; &lt;!-- Component Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JavaProjectDir\TsestNg\Demo1\demo1\src\test\resources\suit2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Component Tests (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;a-t1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestArithmetic&quot;/&gt;
+      &lt;class name=&quot;JavaBasicFunctions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- a-t1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;a-t2&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OpenHRM&quot;/&gt;
+      &lt;class name=&quot;TestNGBAsics&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- a-t2 --&gt;
+&lt;/suite&gt; &lt;!-- Component Tests (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">a-t1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">a-t2 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Component Tests (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">a-t1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">a-t2 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">TestFriendRequest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CountTotalFriend</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CountTotalFriend1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UnfriendAfrined</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Component Tests (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">TestFriendRequest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CountTotalFriend</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CountTotalFriend1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UnfriendAfrined</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Component_Tests');
+function tableData_Component_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchApp')
+data.setCell(0, 2, 'OpenHRM')
+data.setCell(0, 3, 16408);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchApp1')
+data.setCell(1, 2, 'OpenHRM')
+data.setCell(1, 3, 3941);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestAdditionFunction2')
+data.setCell(2, 2, 'JavaBasicFunctions')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CountTotalFriend')
+data.setCell(3, 2, 'OpenHRM')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestMultiFunction1')
+data.setCell(4, 2, 'TestArithmetic')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestAdditionFunction1')
+data.setCell(5, 2, 'TestArithmetic')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AddAfrined')
+data.setCell(6, 2, 'OpenHRM')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UnfriendAfrined')
+data.setCell(7, 2, 'OpenHRM')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestNotDone')
+data.setCell(8, 2, 'TestNGBAsics')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestAdditionFunction')
+data.setCell(9, 2, 'TestArithmetic')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestAdditionFunction1')
+data.setCell(10, 2, 'JavaBasicFunctions')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestDone')
+data.setCell(11, 2, 'TestNGBAsics')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CountTotalFriend1')
+data.setCell(12, 2, 'OpenHRM')
+data.setCell(12, 3, 0);
+window.suiteTableData['Component_Tests']= { tableData: data, tableDiv: 'times-div-Component_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Component_Tests">
+              </div> <!-- times-div-Component_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Component Tests (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Component_Tests__0_');
+function tableData_Component_Tests__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchApp')
+data.setCell(0, 2, 'OpenHRM')
+data.setCell(0, 3, 8392);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchApp1')
+data.setCell(1, 2, 'OpenHRM')
+data.setCell(1, 3, 3972);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestNotDone')
+data.setCell(2, 2, 'TestNGBAsics')
+data.setCell(2, 3, 1129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestDone')
+data.setCell(3, 2, 'TestNGBAsics')
+data.setCell(3, 3, 1058);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestMultiFunction1')
+data.setCell(4, 2, 'TestArithmetic')
+data.setCell(4, 3, 23);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestAdditionFunction1')
+data.setCell(5, 2, 'TestArithmetic')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CountTotalFriend1')
+data.setCell(6, 2, 'OpenHRM')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestAdditionFunction2')
+data.setCell(7, 2, 'JavaBasicFunctions')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AddAfrined')
+data.setCell(8, 2, 'OpenHRM')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UnfriendAfrined')
+data.setCell(9, 2, 'OpenHRM')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestAdditionFunction')
+data.setCell(10, 2, 'TestArithmetic')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestAdditionFunction1')
+data.setCell(11, 2, 'JavaBasicFunctions')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CountTotalFriend')
+data.setCell(12, 2, 'OpenHRM')
+data.setCell(12, 3, 0);
+window.suiteTableData['Component_Tests__0_']= { tableData: data, tableDiv: 'times-div-Component_Tests__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-Component_Tests__0_">
+              </div> <!-- times-div-Component_Tests__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Component Tests (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Initialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestArithmetic</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestMultiFunction1</span>
+                <span class="method-start">7413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction1</span>
+                <span class="method-start">7417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction</span>
+                <span class="method-start">7421 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JavaBasicFunctions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction2</span>
+                <span class="method-start">7423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction1</span>
+                <span class="method-start">7426 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Initialization</span>
+                <span class="method-start">7433 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">SetURL</span>
+                <span class="method-start">14026 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CountTotalFriend</span>
+                <span class="method-start">14032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CountTotalFriend1</span>
+                <span class="method-start">14037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UnfriendAfrined</span>
+                <span class="method-start">14040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">14042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchApp1</span>
+                <span class="method-start">30451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddAfrined</span>
+                <span class="method-start">34393 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestNotDone</span>
+                <span class="method-start">34395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestDone</span>
+                <span class="method-start">34398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">LogOut</span>
+                <span class="method-start">34399 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">39375 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">39456 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Component_Tests__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Initialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestArithmetic</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestMultiFunction1</span>
+                <span class="method-start">7237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction1</span>
+                <span class="method-start">7262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction</span>
+                <span class="method-start">7265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JavaBasicFunctions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction2</span>
+                <span class="method-start">7266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionFunction1</span>
+                <span class="method-start">7268 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Initialization</span>
+                <span class="method-start">7300 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">SetURL</span>
+                <span class="method-start">13281 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CountTotalFriend</span>
+                <span class="method-start">13283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CountTotalFriend1</span>
+                <span class="method-start">13292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UnfriendAfrined</span>
+                <span class="method-start">13302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">13306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchApp1</span>
+                <span class="method-start">21699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddAfrined</span>
+                <span class="method-start">25681 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestNotDone</span>
+                <span class="method-start">25683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestDone</span>
+                <span class="method-start">26813 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OpenHRM</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">LogOut</span>
+                <span class="method-start">27873 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGBAsics</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">31970 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">32175 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

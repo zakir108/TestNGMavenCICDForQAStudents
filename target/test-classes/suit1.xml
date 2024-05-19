@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component Tests" verbose="2" annotations="JDK">
+  <test name="Mozilla" preserve-order="true" >
+    <classes>
+      <class name="TestAllFirendRelatedFunction" />
+      <class name="JavaBasicFunctions" />
+    </classes>
+  </test>
+  <test name="Firefox" preserve-order="true" >
+    <classes>
+      <class name="OpenHRM" />      
+    </classes>
+  </test>
+</suite>

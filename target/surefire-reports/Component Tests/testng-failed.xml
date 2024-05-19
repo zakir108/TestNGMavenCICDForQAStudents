@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Component Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="a-t2(failed)" verbose="0">
+    <classes>
+      <class name="OpenHRM">
+        <methods>
+          <include name="LogOut"/>
+          <include name="Initialization"/>
+          <include name="CountTotalFriend1"/>
+          <include name="launchApp1"/>
+          <include name="CountTotalFriend"/>
+        </methods>
+      </class> <!-- OpenHRM -->
+      <class name="TestNGBAsics">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="TestNotDone"/>
+          <include name="Initialization"/>
+          <include name="TestDone"/>
+          <include name="SetURL"/>
+        </methods>
+      </class> <!-- TestNGBAsics -->
+    </classes>
+  </test> <!-- a-t2(failed) -->
+</suite> <!-- Failed suite [Component Tests] -->
