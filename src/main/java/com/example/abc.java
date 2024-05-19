@@ -1,8 +1,5 @@
 package com.example;
 public class abc {
-
-
-
     //Application programming
     /*
      * this function accept 2 int value and return sum of this 2 number
