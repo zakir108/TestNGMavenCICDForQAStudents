@@ -37,7 +37,7 @@ public class Main {
     }
     // 5! = 5*4*3*2*1 = 120
     // 6! = 6*5*3*2* = 720
-    public static int Factorial(int input)// added by zakir
+   // public static int Factorial(int input)// added by zakir
     {
         ///
         ///
