@@ -1,6 +1,6 @@
 package com.example;
 
-public classes Main {
+public class Main {
 
 
     /* COMMON TO ALL TEAM MEMBER */
@@ -30,7 +30,7 @@ public classes Main {
 
 
     /* WRITTEN ONLY BY zAKIR */
-   // public static int Fibonacci(int x,int y)
+    public static int Fibonacci(int x,int y)
     {
          int z =x*y; 
         return z;
