@@ -32,8 +32,6 @@ public class Main {
          int z =x*y; 
         return z;
 
-        //Changesd
-
 
 
     }   
