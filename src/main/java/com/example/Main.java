@@ -42,5 +42,9 @@ public class Main {
     public static int Factorial1(int input)// added by zakir
     {
         return 0;
-    }    
+    }   
+    public static int Factorial2(int input)// added by zakir
+    {       
+        return 0;
+    } 
 }
