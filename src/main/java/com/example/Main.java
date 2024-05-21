@@ -31,6 +31,11 @@ public class Main {
     {
          int z =x*y; 
         return z;
+
+        //Changesd
+
+
+
     }   
     public static int Factorial(int input)// added by zakir
     {       
