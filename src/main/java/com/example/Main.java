@@ -1,6 +1,6 @@
 package com.example;
 
-public classsssssssss Main {
+public class Main {
 
 
     /* COMMON TO ALL TEAM MEMBER */
