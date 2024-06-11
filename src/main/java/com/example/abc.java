@@ -8,12 +8,16 @@ public class abc {
     {
         int z = (int)(x+y);
         return z;
+
+
+
+
     }
     
     
     public int Multiply2Number(int x,int y)
     {
-        int z =x*y; 
+        int z =x*y*1; 
         return z;
     }
     public static double celsiusToFahrenheit(double celsius) {
